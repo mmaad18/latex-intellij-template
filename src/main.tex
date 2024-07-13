@@ -1,0 +1,31 @@
+%! Author = maad
+%! Date = 01.01.2024
+
+% Preamble
+\documentclass[11pt]{report}
+
+% Packages
+\usepackage{packages}
+\usepackage{stmaryrd}
+\usepackage{listings}
+
+% Document
+\begin{document}
+
+    \include{title}
+
+    \tableofcontents
+    \include{chapters/preface/preface}
+
+    \include{chapters/acronyms/acronyms}
+    \include{chapters/notation/notation}
+
+    \mainmatter
+
+    \include{chapters/perceptron/perceptron}
+
+    \include{chapters/appendix/appendix}
+    \bibliography{main}
+    \bibliographystyle{plain}
+
+\end{document}

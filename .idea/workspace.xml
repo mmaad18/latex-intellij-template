@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapters/acronyms/acronyms.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapters/appendix/appendix.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapters/notation/notation.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapters/perceptron/perceptron.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapters/preface/preface.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/commands.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/figures/perceptron/Perceptron1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/packages.sty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/title.tex" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mmaad18&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mmaad18/latex-intellij-template&quot;,
+    &quot;accountId&quot;: &quot;4c9d25d4-0e92-46f0-b4ec-97be87455c01&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2jBdepwY71eRwqwDlopquGYj6HW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "LaTeX.main.executor": "Run",
+    "Makeindex.main makeindex.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mmbio/Documents/GitHub/latex-intellij-template/src/figures/perceptron",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src\figures\perceptron" />
+      <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src\chapters" />
+      <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="LaTeX.main">
+    <configuration name="main" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>SUMATRA</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <before-run-command />
+        <main-file>$PROJECT_DIR$/src/main.tex</main-file>
+        <output-path>$PROJECT_DIR$/out</output-path>
+        <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>true</has-been-run>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[Makeindex.main makeindex]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-makeindex>
+        <program>MAKEINDEX</program>
+        <main-file />
+        <command-line-args />
+        <work-dir />
+      </texify-makeindex>
+      <method v="2" />
+    </configuration>
+    <configuration name="main makeindex" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify-makeindex>
+        <program>MAKEINDEX</program>
+        <main-file>$PROJECT_DIR$/src/main.tex</main-file>
+        <command-line-args />
+        <work-dir>$PROJECT_DIR$/auxil</work-dir>
+      </texify-makeindex>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="LaTeX.main" />
+      <item itemvalue="Makeindex.main makeindex" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="" />
+      <created>1720864501507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720864501507</updated>
+      <workItem from="1720864505150" duration="1671000" />
+      <workItem from="1720879508807" duration="1462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
