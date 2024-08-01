@@ -1,13 +1,19 @@
 %! Author = mmbio
 %! Date = 01.08.2024
 
-\documentclass[letterpaper,10pt]{article}
-\usepackage{biblatex} %Imports biblatex package
-\addbibresource{sample.bib} %Import the bibliography file
+\documentclass[11pt]{report}
+
+\usepackage{packages}
 
 \begin{document}
+
+    \include{title}
+    \tableofcontents
+
+    \include{chapters/preface/preface}
+
     Let's cite! Einstein's journal paper \cite{einstein} and Dirac's book \cite{dirac} are physics-related items.
 
-    \printbibliography %Prints bibliography
+    \printbibliography
 
 \end{document}
