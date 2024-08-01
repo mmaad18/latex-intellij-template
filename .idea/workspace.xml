@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapters/acronyms/acronyms.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapters/appendix/appendix.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapters/notation/notation.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapters/perceptron/perceptron.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapters/preface/preface.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/commands.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/figures/perceptron/Perceptron1c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.bib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/packages.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/title.tex" afterDir="false" />
+    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Moved package">
+      <change afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapters/acronyms/acronyms.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapters/appendix/appendix.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapters/notation/notation.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapters/perceptron/perceptron.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapters/preface/preface.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/figures/perceptron/Perceptron1c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/packages.sty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/references.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/title.tex" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,27 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "LaTeX.main.executor": "Run",
-    "Makeindex.main makeindex.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mmbio/Documents/GitHub/latex-intellij-template/src/figures/perceptron",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;LaTeX.main.executor&quot;: &quot;Run&quot;,
+    &quot;Makeindex.main makeindex.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mmbio/Documents/GitHub/latex-intellij-template/src/figures/perceptron&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src\figures\perceptron" />
@@ -83,6 +81,28 @@
     </key>
   </component>
   <component name="RunManager" selected="LaTeX.main">
+    <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+      <texify>
+        <compiler>PDFLATEX</compiler>
+        <compiler-path />
+        <sumatra-path />
+        <pdf-viewer>SUMATRA</pdf-viewer>
+        <viewer-command />
+        <compiler-arguments />
+        <envs />
+        <before-run-command />
+        <main-file />
+        <output-path>{projectDir}/out</output-path>
+        <auxil-path>{projectDir}/auxil</auxil-path>
+        <compile-twice>false</compile-twice>
+        <output-format>PDF</output-format>
+        <latex-distribution>MIKTEX</latex-distribution>
+        <has-been-run>false</has-been-run>
+        <bib-run-config>[]</bib-run-config>
+        <makeindex-run-config>[]</makeindex-run-config>
+      </texify>
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
         <compiler>PDFLATEX</compiler>
@@ -93,7 +113,7 @@
         <compiler-arguments />
         <envs />
         <before-run-command />
-        <main-file>$PROJECT_DIR$/src/main.tex</main-file>
+        <main-file />
         <output-path>$PROJECT_DIR$/out</output-path>
         <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
         <compile-twice>false</compile-twice>
@@ -105,21 +125,12 @@
       </texify>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+    <configuration name="main makeindex" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-makeindex>
         <program>MAKEINDEX</program>
         <main-file />
         <command-line-args />
         <work-dir />
-      </texify-makeindex>
-      <method v="2" />
-    </configuration>
-    <configuration name="main makeindex" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <texify-makeindex>
-        <program>MAKEINDEX</program>
-        <main-file>$PROJECT_DIR$/src/main.tex</main-file>
-        <command-line-args />
-        <work-dir>$PROJECT_DIR$/auxil</work-dir>
       </texify-makeindex>
       <method v="2" />
     </configuration>
