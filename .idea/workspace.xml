@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Moved package">
-      <change afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
+    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Fresh start">
+      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapters/acronyms/acronyms.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapters/appendix/appendix.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapters/notation/notation.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapters/perceptron/perceptron.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapters/preface/preface.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commands.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/figures/perceptron/Perceptron1c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packages.sty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/references.bib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/title.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +43,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;LaTeX.main.executor&quot;: &quot;Run&quot;,
-    &quot;Makeindex.main makeindex.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mmbio/Documents/GitHub/latex-intellij-template/src/figures/perceptron&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "LaTeX.main.executor": "Run",
+    "Makeindex.main makeindex.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "Shell Script.run.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Program Files/Git/git-bash.exe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src\figures\perceptron" />
@@ -80,29 +72,7 @@
       <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src" />
     </key>
   </component>
-  <component name="RunManager" selected="LaTeX.main">
-    <configuration default="true" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
-      <texify>
-        <compiler>PDFLATEX</compiler>
-        <compiler-path />
-        <sumatra-path />
-        <pdf-viewer>SUMATRA</pdf-viewer>
-        <viewer-command />
-        <compiler-arguments />
-        <envs />
-        <before-run-command />
-        <main-file />
-        <output-path>{projectDir}/out</output-path>
-        <auxil-path>{projectDir}/auxil</auxil-path>
-        <compile-twice>false</compile-twice>
-        <output-format>PDF</output-format>
-        <latex-distribution>MIKTEX</latex-distribution>
-        <has-been-run>false</has-been-run>
-        <bib-run-config>[]</bib-run-config>
-        <makeindex-run-config>[]</makeindex-run-config>
-      </texify>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Shell Script.run">
     <configuration name="main" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify>
         <compiler>PDFLATEX</compiler>
@@ -113,10 +83,10 @@
         <compiler-arguments />
         <envs />
         <before-run-command />
-        <main-file />
+        <main-file>$PROJECT_DIR$/main.tex</main-file>
         <output-path>$PROJECT_DIR$/out</output-path>
         <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
-        <compile-twice>false</compile-twice>
+        <compile-twice>true</compile-twice>
         <output-format>PDF</output-format>
         <latex-distribution>MIKTEX</latex-distribution>
         <has-been-run>true</has-been-run>
@@ -134,9 +104,25 @@
       </texify-makeindex>
       <method v="2" />
     </configuration>
+    <configuration name="run" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="false" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/run.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="false" />
+      <option name="INTERPRETER_PATH" value="$PROJECT_DIR$/../../../../../Program Files/Git/git-bash.exe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="false" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="LaTeX.main" />
       <item itemvalue="Makeindex.main makeindex" />
+      <item itemvalue="Shell Script.run" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -157,11 +143,24 @@
       <updated>1720864501507</updated>
       <workItem from="1720864505150" duration="1671000" />
       <workItem from="1720879508807" duration="1462000" />
+      <workItem from="1722526748155" duration="1311000" />
     </task>
+    <task id="LOCAL−00001" summary="Fresh start">
+      <option name="closed" value="true" />
+      <created>1722526867083</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1722526867083</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fresh start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fresh start" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
