@@ -5,10 +5,45 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{packages}[2024/08/01 maad Package]
 
+%%%%%%%%%%%%%%%
+%%   Setup   %%
+%%%%%%%%%%%%%%%
+
+%! Input encoding
+\RequirePackage[utf8]{inputenc}
+
 %! Imports biblatex package
 \RequirePackage{biblatex}
 \addbibresource{references.bib}
 
+%! Appendix
+\RequirePackage{appendix}
+
+%%%%%%%%%%%%%%
+%%   Math   %%
+%%%%%%%%%%%%%%
+
+%! Enable SI units
+\RequirePackage{siunitx}
+
+%! Math formulas and improved typographical quality of their output
+\RequirePackage{amsmath}
+
+%! Extended symbol collection
+\RequirePackage{amssymb}
+
+%! Adds extra generic symbols for math and text mode, e.g. \degree
+\RequirePackage{gensymb}
+
+%! Used for varodot
+\RequirePackage{stmaryrd}
+
+%! Bold text in math mode
+\RequirePackage{bm}
+
+%%%%%%%%%%%%%%%%%%
+%%   Commands   %%
+%%%%%%%%%%%%%%%%%%
 
 %! Commands
 \input{commands}
