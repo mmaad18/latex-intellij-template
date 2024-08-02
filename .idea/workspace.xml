@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Now with acronyms">
-      <change afterPath="$PROJECT_DIR$/chapters/appendix/appendix.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapters/perceptron/perceptron.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figures/perceptron/Perceptron1c.png" afterDir="false" />
+    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Now with proper references and images in sample chapter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages.sty" beforeDir="false" afterPath="$PROJECT_DIR$/packages.sty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/references.bib" beforeDir="false" afterPath="$PROJECT_DIR$/references.bib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +144,7 @@
       <workItem from="1720864505150" duration="1671000" />
       <workItem from="1720879508807" duration="1462000" />
       <workItem from="1722526748155" duration="2430000" />
-      <workItem from="1722544650514" duration="11031000" />
+      <workItem from="1722544650514" duration="11696000" />
     </task>
     <task id="LOCAL−00001" summary="Fresh start">
       <option name="closed" value="true" />
@@ -193,7 +188,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1722557829038</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Now with proper references and images in sample chapter">
+      <option name="closed" value="true" />
+      <created>1722559477960</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1722559477960</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +208,8 @@
     <MESSAGE value="Now with notation" />
     <MESSAGE value="Now with operations" />
     <MESSAGE value="Now with acronyms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now with acronyms" />
+    <MESSAGE value="Now with proper references and images in sample chapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now with proper references and images in sample chapter" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

@@ -19,6 +19,19 @@
 %! Appendix
 \RequirePackage{appendix}
 
+%! Page setup
+\RequirePackage[a4paper, total={150mm, 245mm,footskip = 14mm}]{geometry}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.8em}
+
+%! Customized header and footer
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.1ex}
+\renewcommand{\footrulewidth}{0.1ex}
+\fancyfoot[C]{\thepage}
+
 %%%%%%%%%%%%%%
 %%   Math   %%
 %%%%%%%%%%%%%%
