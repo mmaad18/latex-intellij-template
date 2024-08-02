@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Now with proper references and images in sample chapter">
+    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Now with better page setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages.sty" beforeDir="false" afterPath="$PROJECT_DIR$/packages.sty" afterDir="false" />
     </list>
@@ -41,28 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "LaTeX.main.executor": "Run",
-    "Makeindex.main makeindex.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "Shell Script.run.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mmbio/Documents/GitHub/latex-intellij-template/figures/perceptron",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;LaTeX.main.executor&quot;: &quot;Run&quot;,
+    &quot;Makeindex.main makeindex.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;Shell Script.run.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mmbio/Documents/GitHub/latex-intellij-template/figures/perceptron&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\figures\perceptron" />
@@ -144,7 +144,8 @@
       <workItem from="1720864505150" duration="1671000" />
       <workItem from="1720879508807" duration="1462000" />
       <workItem from="1722526748155" duration="2430000" />
-      <workItem from="1722544650514" duration="11696000" />
+      <workItem from="1722544650514" duration="12891000" />
+      <workItem from="1722618951908" duration="6708000" />
     </task>
     <task id="LOCAL−00001" summary="Fresh start">
       <option name="closed" value="true" />
@@ -195,7 +196,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1722559477960</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Now with better page setup">
+      <option name="closed" value="true" />
+      <created>1722560143583</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1722560143583</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +217,8 @@
     <MESSAGE value="Now with operations" />
     <MESSAGE value="Now with acronyms" />
     <MESSAGE value="Now with proper references and images in sample chapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now with proper references and images in sample chapter" />
+    <MESSAGE value="Now with better page setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now with better page setup" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

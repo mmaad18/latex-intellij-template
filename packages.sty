@@ -32,6 +32,16 @@
 \renewcommand{\footrulewidth}{0.1ex}
 \fancyfoot[C]{\thepage}
 
+%! Hyper-references, used to create clickable links, such as table of contents. Can change the color of the links.
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor = black,
+    filecolor = black,
+    linkcolor = black,
+    urlcolor = black
+}
+
 %%%%%%%%%%%%%%
 %%   Math   %%
 %%%%%%%%%%%%%%
@@ -58,7 +68,7 @@
 %%   Images   %%
 %%%%%%%%%%%%%%%%
 
-% Standard LaTeX graphics tool when including figure files
+%! Standard LaTeX graphics tool when including figure files
 \RequirePackage{graphicx}
 
 %! Wrap text around images
