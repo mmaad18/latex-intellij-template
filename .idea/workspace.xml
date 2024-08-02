@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Now with, title and preface">
-      <change afterPath="$PROJECT_DIR$/chapters/notation/notation.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="894897bf-0d11-40da-8cde-e67ae3e81111" name="Changes" comment="Now with notation">
+      <change afterPath="$PROJECT_DIR$/chapters/operations/operations.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages.sty" beforeDir="false" afterPath="$PROJECT_DIR$/packages.sty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/references.bib" beforeDir="false" afterPath="$PROJECT_DIR$/references.bib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     "go.import.settings.migrated": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mmbio/Documents/GitHub/latex-intellij-template/chapters/notation",
+    "last_opened_file_path": "C:/Users/mmbio/Documents/GitHub/latex-intellij-template/chapters/operations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,11 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\chapters\operations" />
       <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\chapters\notation" />
       <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template" />
       <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src\figures\perceptron" />
       <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src\chapters" />
-      <recent name="C:\Users\mmbio\Documents\GitHub\latex-intellij-template\src" />
     </key>
   </component>
   <component name="RunManager" selected="Shell Script.run">
@@ -146,7 +145,7 @@
       <workItem from="1720864505150" duration="1671000" />
       <workItem from="1720879508807" duration="1462000" />
       <workItem from="1722526748155" duration="2430000" />
-      <workItem from="1722544650514" duration="8565000" />
+      <workItem from="1722544650514" duration="8870000" />
     </task>
     <task id="LOCAL−00001" summary="Fresh start">
       <option name="closed" value="true" />
@@ -169,7 +168,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1722552700619</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Now with notation">
+      <option name="closed" value="true" />
+      <created>1722556821298</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1722556821298</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +185,8 @@
     <MESSAGE value="Fresh start" />
     <MESSAGE value="Seems to work" />
     <MESSAGE value="Now with, title and preface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now with, title and preface" />
+    <MESSAGE value="Now with notation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now with notation" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

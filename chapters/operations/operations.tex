@@ -1,0 +1,276 @@
+%! Author = maad
+%! Date = 01.08.2024
+
+\chapter{Mathematical Operations}\label{ch:operations}
+
+
+\subsection{Element-wise operations}\label{subsec:element-wise-operations}
+
+If a vector is fed into a function which usually operates on scalars, the function is applied to each element of the vector.
+
+\begin{equation}\label{eq:element-wise-operations}
+    \exp (\bm{x}) =
+    \begin{bmatrix}
+        \exp(x_1) & \exp(x_2) & \ldots & \exp(x_n)
+    \end{bmatrix}^T
+\end{equation}
+
+
+\subsection{Sum of vector elements}\label{subsec:sum-of-vector-elements}
+
+\begin{equation}\label{eq:sum-of-vector-elements}
+    \bm{1}^T \bm{x} = \sum_{i=1}^{n} x_i = \sum \bm{x} = \text{sum} (\bm{x})
+\end{equation}
+
+
+\subsection{Gradient}\label{subsec:gradient}
+
+\begin{equation}\label{eq:gradient-operator}
+    \nabla =
+    \begin{bmatrix}
+        \frac{\partial}{\partial x_1} & \frac{\partial}{\partial x_2} & \ldots & \frac{\partial}{\partial x_n}
+    \end{bmatrix}^T
+\end{equation}
+
+Gradient of the function $f(x)$:
+
+\begin{equation}\label{eq:gradient-of-a-function}
+    \nabla f(x) =
+    \begin{bmatrix}
+        \frac{\partial f}{\partial x_1} & \frac{\partial f}{\partial x_2} & \ldots & \frac{\partial f}{\partial x_n}
+    \end{bmatrix}^T
+\end{equation}
+
+
+\subsection{Chain rule}\label{subsec:chain-rule}
+
+\begin{equation}\label{eq:chain-rule-functions}
+    J = f(z), \quad z = g(y), \quad y = h(x)
+\end{equation}
+
+\begin{equation}\label{eq:chain-rule-composite-function}
+    \implies J = f(g(h(x)))
+\end{equation}
+
+\begin{equation}\label{eq:chain-rule}
+    \frac{\partial J}{\partial x} = \frac{\partial J}{\partial z} \frac{\partial z}{\partial y} \frac{\partial y}{\partial x}
+    = \frac{\partial f(z)}{\partial z} \frac{\partial g(y)}{\partial y} \frac{\partial h(x)}{\partial x}
+\end{equation}
+
+
+\subsection{Law of total derivatives}\label{subsec:law-of-total-derivatives}
+
+In the case of a total derivative, $x$, $y$, and $z$ are all functions of $t$, which $f(x, y, z)$ is dependent upon.
+This means that the variables $x$, $y$, and $z$ can not be disregarded when calculating the derivative.
+
+\begin{equation}\label{eq:total-derivatives-functions}
+    f(x, y, z) = f(x(t), y(t), z(t))
+\end{equation}
+
+\begin{equation}\label{eq:law-of-total-derivatives}
+    \frac{d f}{d t} = \frac{\partial f}{\partial x} \frac{d x}{d t} + \frac{\partial f}{\partial y} \frac{d y}{d t}
+                    + \frac{\partial f}{\partial z} \frac{d z}{d t}
+\end{equation}
+
+\begin{equation}\label{eq:law-of-total-derivatives-sum}
+    \frac{d f}{d t} = \sum_{k=1}^{K} \frac{\partial f}{\partial q_k} \frac{d q_k}{d t} \ , \quad q_k \in \{ x, y, z \}
+\end{equation}
+
+\textbf{Example:}
+
+\begin{equation}\label{eq:law-of-total-derivatives-example-function}
+    f(x, y) = f(x, y(x)) = 3 x^2 + 2 y
+\end{equation}
+
+In the partial derivative, all variables except $x$ are treated as constants.
+
+\begin{equation}\label{eq:partital-derivatives-example}
+    \frac{\partial f}{\partial x} = \frac{\partial}{\partial x} (3 x^2) + \frac{\partial}{\partial x} (2 y) = 6 x
+\end{equation}
+
+In the total derivative, all variables are treated as functions of $x$.
+
+\begin{equation}\label{eq:total-derivatives-example}
+    \frac{d f}{d x} = \frac{d}{d x} (3 x^2) + \frac{d}{d x} (2 y) = 6 x + 2 \frac{d y}{d x}
+\end{equation}
+
+
+\subsection{Kronecker delta}\label{subsec:kronecker-delta}
+
+\begin{equation}\label{eq:kronecker-delta}
+    \delta_{ij} = \begin{cases}
+        1 & \text{if } i = j \\
+        0 & \text{otherwise}
+    \end{cases}
+\end{equation}
+
+
+\subsection{Matrix trace}\label{subsec:matrix-trace}
+
+\begin{equation}\label{eq:matrix-trace}
+    \text{tr} (\bm{A}) = \sum_{i=1}^{n} A_{ii}
+\end{equation}
+
+Trace equivalence when summing products of vectors:
+
+\begin{equation}\label{eq:a-vector}
+    \bm{a}_i = \bm{A}_{i,:}
+\end{equation}
+
+\begin{equation}\label{eq:matrix-trace-equivalence}
+    \text{tr} \left( \bm{A}^T \bm{A} \right) = \sum_{i=1}^{n} \bm{a}_i^T \bm{a}_i
+\end{equation}
+
+
+\subsection{Frobenius inner product}\label{subsec:frobenius-inner-product}
+
+\begin{equation}\label{eq:frobenius-inner-product}
+    \langle \bm{A}, \bm{B} \rangle_F = \sum_{i=1}^{n} \sum_{j=1}^{m} A_{i j} B_{i j} =
+    \text{tr} \left( \bm{A}^T \bm{B} \right) = \text{sum} (\bm{A} \varodot \bm{B})
+\end{equation}
+
+
+\subsection{Unitary matrix}\label{subsec:unitary-matrix}
+
+\begin{equation}\label{eq:matrix-unitarity}
+    \bm{A} \bm{A}^* = \bm{A}^* \bm{A} = \bm{I}
+\end{equation}
+
+
+\subsection{Cross-correlation}\label{subsec:cross-correlation}
+
+\textit{Cross-correlation} is not commutative.
+
+\begin{equation}\label{eq:cross-correlation}
+    \bm{C} = \bm{A} \star \bm{B} \neq \bm{B} \star \bm{A}
+\end{equation}
+
+Cross-correlation in 1D:
+
+\begin{equation}\label{eq:cross-correlation-elements-1d}
+    c_i = \sum_{m=1}^{M} a_{i + m} b_m
+\end{equation}
+
+Cross-correlation in 2D:
+
+\begin{equation}\label{eq:cross-correlation-elements-2d}
+    c_{i j} = \sum_{m=1}^{M} \sum_{n=1}^{N} a_{i + m, j + n} b_{m n}
+\end{equation}
+
+
+\subsection{Convolution}\label{subsec:convolution}
+
+\textit{Convolution} is the same as \textit{cross-correlation}, except that the kernel is flipped.
+This is done to achieve commutativity. Flipping the kernel is equivalent to counting down the index $m$ instead of up.
+
+\begin{equation}\label{eq:convolution}
+    \bm{C} = \bm{A} * \bm{B} = \bm{B} * \bm{A}
+\end{equation}
+
+Convolution in 1D:
+
+\begin{equation}\label{eq:convolution-elements-1d}
+    c_i = \sum_{m=1}^{M} a_m b_{i - m}
+\end{equation}
+
+Convolution in 2D:
+
+\begin{equation}\label{eq:convolution-elements-2d-1}
+    c_{i j} = \sum_{m=1}^{M} \sum_{n=1}^{N} a_{m n} b_{i - m, j - n}
+\end{equation}
+
+As convolution is commutative, this is equivalent to:
+
+\begin{equation}\label{eq:convolution-elements-2d-2}
+    c_{i j} = \sum_{m=1}^{M} \sum_{n=1}^{N} a_{i - m, j - n} b_{m n}
+\end{equation}
+
+Convolution in 3D:
+
+\begin{equation}\label{eq:convolution-elements-3d}
+    c_{i j k} = \sum_{m=1}^{M} \sum_{n=1}^{N} \sum_{o=1}^{O} a_{m n o} b_{i - m, j - n, k - o}
+\end{equation}
+
+
+\subsection{Fourier transform}\label{subsec:fourier-transform}
+
+\begin{equation}\label{eq:exp-operations}
+    e^{i \theta} = \cos (\theta) + i \sin (\theta)
+\end{equation}
+
+\begin{equation}\label{eq:fourier-transform-operations}
+    F (u) = \mathcal{F}\{f (x)\} = \int^{\infty}_{-\infty} f (x) e^{-i 2 \pi u x} d x
+\end{equation}
+
+The fourier transform is a complex function, so it can be decomposed into its real and imaginary parts:
+
+\begin{equation}\label{eq:fourier-transform-decomposition-operations}
+    F (u) = \int^{\infty}_{-\infty} f (x) \cos (2 \pi u x) d x
+        - i \int^{\infty}_{-\infty} f (x) \sin (2 \pi u x) d x
+\end{equation}
+
+Inverse fourier transform:
+
+\begin{equation}\label{eq:inverse-fourier-transform-operations}
+    f (x) = \mathcal{F}^{-1}\{F (u)\} = \int^{\infty}_{-\infty} F (u) e^{i 2 \pi u x} d u
+\end{equation}
+
+
+\subsection{Discrete Fourier transform}\label{subsec:discrete-fourier-transform-operations}
+
+$M$ is the number of frequency samples. $p$ is the frequency.
+
+\begin{equation}\label{eq:discrete-fourier-transform-operations}
+    F [p] = \text{DFT} \{f [m] \} = \sum^{M-1}_{m=0} f [m] e^{- i 2 \pi p m / M}
+\end{equation}
+
+Inverse discrete Fourier transform:
+
+\begin{equation}\label{eq:inverse-discrete-fourier-transform-operations}
+    f [m] = \text{IDFT} \{F [p] \} = \frac{1}{M} \sum^{M-1}_{p=0} F [p] e^{i 2 \pi p m / M}
+\end{equation}
+
+\subsection{Complex conjugate}\label{subsec:complex-conjugate}
+
+\begin{equation}\label{eq:non-complex-conjugate}
+    z = a + i b
+\end{equation}
+
+\begin{equation}\label{eq:complex-conjugate}
+    z^{*} = a - i b
+\end{equation}
+
+
+\subsection{Tensor product}\label{subsec:tensor-product}
+
+In vector form:
+
+\begin{equation}\label{eq:tensor-product-vector}
+\bm{a} \varotimes \bm{b} =
+\begin{bmatrix}
+    a_1 \bm{b} \\
+    \vdots \\
+    a_i \bm{b}
+\end{bmatrix}
+\end{equation}
+
+In matrix form, also known as the \textit{Kronecker product}:
+
+\begin{equation}\label{eq:tensor-product}
+    \bm{A} \varotimes \bm{B} =
+    \begin{bmatrix}
+        A_{1 1} \bm{B} & \cdots & A_{1 j} \bm{B} \\
+        \vdots & \ddots & \vdots \\
+        A_{i 1} \bm{B} & \cdots & A_{i j} \bm{B}
+    \end{bmatrix}
+\end{equation}
+
+Multiplication law:
+
+\begin{equation}\label{eq:tensor-product-multiplication}
+    (\bm{A} \varotimes \bm{B}) (\bm{X} \varotimes \bm{Y}) = (\bm{A} \bm{X}) \varotimes (\bm{B} \bm{Y})
+\end{equation}
+
+
+
+
